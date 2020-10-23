@@ -43,4 +43,4 @@ def update(request, id):
         item.save()
         serie_list = models.Serie.objects.order_by('name')
         data_dict = {"serie_records": serie_list, 'form': forms.SerieForm()}
-        return render(request, 'serie/serie.html', data_dict)
+        return render(request, 'serie/../redirect.html', data_dict)
