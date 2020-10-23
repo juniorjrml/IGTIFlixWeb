@@ -35,9 +35,7 @@
                 </div>
                 <div class="inserir-dados">
                     <form onsubmit="/genero" id="form-genero" method="post">
-                        {{form}}
-                        {% csrf_token %}
-                        <input type="submit" value="Enviar" class="buttons">
+                        {% include "../formularios.html" %}
                     </form>
                 </div>
             </div>

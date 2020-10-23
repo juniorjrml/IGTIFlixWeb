@@ -2,7 +2,7 @@
 {% load static %}
 <html>
     <head>
-        {% include "../cabecalho.html" %}
+        {% include "../conexoes-estilos-.html" %}
         <link rel="stylesheet" href="{% static 'css/crud.css' %}" type="text/css">
     </head>
     <body>
@@ -10,9 +10,7 @@
         {% include "logo.html" %}
         <div class="inserir-dados">
             <form onsubmit="/serie" id="form-serie" method="post">
-                {{form}}
-                {% csrf_token %}
-                <input type="submit" value="Enviar" class="buttons">
+                {% include "../formularios.html" %}
             </form>
         </div>
 
