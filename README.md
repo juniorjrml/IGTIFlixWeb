@@ -5,5 +5,5 @@ Como desenvolvi conforme assistia as aulas e executava as tarefas decidi não fa
 
 O ambiente usado foi:
 
-Django: 3.1.2
+Django: 3.1.2<br >
 Python: 3.8.5
