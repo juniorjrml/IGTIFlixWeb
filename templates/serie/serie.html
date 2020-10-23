@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        {% include "../cabecalho.html" %}
+        <link rel="stylesheet" href="{% static 'css/crud.css' %}" type="text/css">
+    </head>
+    <body>
+        {% include "menu.html" %}
+        {% include "logo.html" %}
+
+        <main>
+            <div class="conteiner">
+                <div id = "items">
+                    {% if serie_records %}
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Serie</th> <th>Serie</th> <th>clique para alterar</th> <th>clique para excluir</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                {% for serie in serie_records %}
+                                    <tr class = "linhaselecionada">
+                                            <td>{{ serie.name }}</td>
+                                            <td>{{ serie.idGenero.descricao }}</td>
+                                            <td><button class="buttons editar" onclick="updateItem({{ serie.id }})">Alterar</button></td>
+                                            <td><button class="buttons apagar" onclick="deleteItem({{ serie.id }})">Excluir</button></td>
+                                    </tr>
+                                {% endfor %}
+                        </tbody>
+                    </table>
+                    {% else %}
+                        <p>Nenhum dado cadastrado</p>
+                    {% endif %}
+                </div>
+                <div class="inserir-dados">
+                    <form onsubmit="/serie" id="form-serie" method="post">
+                        {{form}}
+                        {% csrf_token %}
+                        <input type="submit" value="Enviar" class="buttons">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <script>
+            function deleteItem(id) {
+                const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+                const request = new Request(
+                    "/serie/delete/"+id,
+                    {headers:{'X-CSRFToken':csrftoken}}
+                );
+                fetch(request, {
+                    method:'DELETE',
+                    mode: 'same-origin'
+                }).then(
+                    function (response) {
+                        if (response.status===500){
+                            alert("Não foi possivel excluir esse Genero.");
+                        } else {
+                            location.replace("/serie");
+                        }
+                    }
+                );
+            }
+            function updateItem(id) {
+                location.replace('/serie/update/'+id);
+            }
+        </script>
+    </body>
+</html>

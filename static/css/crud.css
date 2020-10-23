@@ -1,0 +1,59 @@
+form {
+    margin: 0px;
+
+}
+
+form label {
+    display: inline;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+
+}
+
+.buttons {
+    background: #28c997;
+    font-size: 1em;
+    color:white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.buttons:hover {
+    font-weight: bold;
+    background: #00a293;
+}
+
+.apagar:hover {
+    background-color: red;
+}
+
+.editar:hover {
+    background-color: yellow;
+}
+
+
+table {
+    margin: 30px;
+    text-align: center;
+}
+
+thead {
+    background: #28c997;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 5px;
+}
+
+#items {
+    flex-direction: column;
+}
+
+.linhaselecionada:hover{
+    background-color: wheat;
+}
