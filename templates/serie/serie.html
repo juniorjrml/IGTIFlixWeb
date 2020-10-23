@@ -3,7 +3,6 @@
 <html>
     <head>
         {% include "../cabecalho.html" %}
-        <link rel="stylesheet" href="{% static 'css/crud.css' %}" type="text/css">
     </head>
     <body>
         {% include "menu.html" %}
@@ -12,6 +11,7 @@
         <main>
             <div class="conteiner">
                 <div id = "items">
+
                     {% if serie_records %}
                     <table>
                         <thead>
@@ -20,6 +20,7 @@
                         </tr>
                         </thead>
                         <tbody>
+
                                 {% for serie in serie_records %}
                                     <tr class = "linhaselecionada">
                                             <td>{{ serie.name }}</td>
