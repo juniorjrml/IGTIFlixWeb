@@ -2,7 +2,7 @@
 {% load static %}
 <html>
     <head>
-        {% include "../cabecalho.html" %}
+        {% include "../conexoes-estilos-linguagem.html" %}
     </head>
     <body>
         {% include "menu.html" %}
@@ -24,7 +24,7 @@
                                 {% for serie in serie_records %}
                                     <tr class = "linhaselecionada">
                                             <td>{{ serie.name }}</td>
-                                            <td>{{ serie.idGenero.descricao }}</td>
+                                            <td>{{ serie.Genero.descricao }}</td>
                                             <td><button class="buttons editar" onclick="updateItem({{ serie.id }})">Alterar</button></td>
                                             <td><button class="buttons apagar" onclick="deleteItem({{ serie.id }})">Excluir</button></td>
                                     </tr>

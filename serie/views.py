@@ -3,7 +3,7 @@ from django.shortcuts import render
 from . import forms
 from . import models
 from genero import models as modeloGenero
-from django.http import HttpResponseNotAllowed
+
 
 def cadastro(request):
     form = forms.SerieForm()
@@ -31,13 +31,13 @@ def delete(request, id):
 def update(request, id):
     item = models.Serie.objects.get(id=id)
     if request.method == "GET":
-        form = forms.SerieForm(initial={'name': item.name, 'idGenero':item.idGenero})
+        form = forms.SerieForm(initial={'name': item.name, 'Genero':item.Genero})
         data_dict = {'form': form}
         return render(request, 'serie/serie_upd.html', data_dict)
     else:
         form = forms.SerieForm(request.POST)
         item.name = form.data['name']
-        item.idGenero = modeloGenero.Genero.objects.filter(id=form.data['idGenero'])[0]
+        item.Genero = modeloGenero.Genero.objects.filter(id=form.data['Genero'])[0]
         #objects.filter(id=form.data['idGenero'])
         #print(type(modeloGenero.Genero.objects.filter(id=form.data['idGenero'])[0]))
         item.save()
