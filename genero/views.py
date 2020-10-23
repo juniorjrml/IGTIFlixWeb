@@ -40,5 +40,5 @@ def update(request, id):
         item.descricao = form.data['descricao']
         item.save()
         generos_list = models.Genero.objects.order_by('descricao')
-        data_dict = {'form': form, 'generos_records': generos_list}
+        data_dict = {'form': forms.GeneroForm(), 'generos_records': generos_list}
         return render(request, 'genero/genero.html', data_dict)

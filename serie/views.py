@@ -42,5 +42,5 @@ def update(request, id):
         #print(type(modeloGenero.Genero.objects.filter(id=form.data['idGenero'])[0]))
         item.save()
         serie_list = models.Serie.objects.order_by('name')
-        data_dict = {"serie_records": serie_list, 'form': form}
+        data_dict = {"serie_records": serie_list, 'form': forms.SerieForm()}
         return render(request, 'serie/serie.html', data_dict)
