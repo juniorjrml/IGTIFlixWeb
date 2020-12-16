@@ -1,9 +1,16 @@
-# IGTIFlixWeb
-Aplicação web feita com o Django e desenvolvida durante o modulo 3 do bootcamp desenvolvedor python do IGTI
+### **IGTIFlixWeb**
 
-Como desenvolvi conforme assistia as aulas e executava as tarefas decidi não fazer um clone do projeto do professor devido a diversas modificações da estrutura original que criei (projeto do professor: https://github.com/brigolini/django-series/)
+Aplicação web desenvolvida com o *Django*  durante o módulo 3 do **Bootcamp Desenvolvedor Python** do *Instituto de Gestão e Tecnologia da Informação*.
 
-O ambiente usado foi:
 
-Django: 3.1.2<br >
-Python: 3.8.5
+------------
+
+Aplicação para gerir uma coleção de filmes e series onde e possivel adicionar, excluir e alterar tanto gênero como titulos
+
+------------
+
+**Utilizado:**
+- Python 3.8.5
+- Django 3.1.2
+
+
