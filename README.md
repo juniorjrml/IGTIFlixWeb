@@ -17,4 +17,4 @@ Aplicação para gerir uma coleção de filmes e series onde e possivel adiciona
 
 **Telas:**
 
-![Pagina Inicial](/igtiflix_screens/Captura de tela de 2020-12-17 17-28-04.png)
+![Pagina Inicial](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-04.png)
