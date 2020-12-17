@@ -13,4 +13,8 @@ Aplicação para gerir uma coleção de filmes e series onde e possivel adiciona
 - Python 3.8.5
 - Django 3.1.2
 
+------------
 
+**Telas:**
+
+![Pagina Inicial](/igtiflix_screens/Captura de tela de 2020-12-17 17-28-04.png)
