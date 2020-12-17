@@ -16,5 +16,18 @@ Aplicação para gerir uma coleção de filmes e series onde e possivel adiciona
 ------------
 
 **Telas:**
+#### Tela Inicial
 
 ![Pagina Inicial](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-04.png)
+
+#### Tela de Genero
+
+![Pagina Genero](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-20.png)
+
+#### Tela de Series
+
+![Pagina Series](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-32.png)
+
+#### Menu com o Cursor posicionado em cima
+
+![menu com cursor](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-29-08.png)
