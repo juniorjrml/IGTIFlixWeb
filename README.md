@@ -18,16 +18,25 @@ Aplicação para gerir uma coleção de filmes e series onde e possivel adiciona
 **Telas:**
 #### Tela Inicial
 
-![Pagina Inicial](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-04.png)
+![Pagina Inicial](/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-04.png)
 
 #### Tela de Genero
 
-![Pagina Genero](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-20.png)
+![Pagina Genero](/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-20.png)
 
 #### Tela de Series
 
-![Pagina Series](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-32.png)
+![Pagina Series](/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-28-32.png)
 
 #### Menu com o Cursor posicionado em cima
 
-![menu com cursor](https://github.com/juniorjrml/IGTIFlixWeb/blob/master/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-29-08.png)
+![menu com cursor](/igtiflix_screens/Captura%20de%20tela%20de%202020-12-17%2017-29-08.png)
+
+#### Outras telas e efeitos:
+
+![1](/igtiflix_screens/1.png)
+![2](/igtiflix_screens/2.png)
+![3](/igtiflix_screens/3.png)
+![4](/igtiflix_screens/4.png)
+![5](/igtiflix_screens/5.png)
+![6](/igtiflix_screens/6.png)
