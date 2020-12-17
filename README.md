@@ -34,9 +34,16 @@ Aplicação para gerir uma coleção de filmes e series onde e possivel adiciona
 
 #### Outras telas e efeitos:
 
-![1](/igtiflix_screens/1.png)
-![2](/igtiflix_screens/2.png)
-![3](/igtiflix_screens/3.png)
-![4](/igtiflix_screens/4.png)
-![5](/igtiflix_screens/5.png)
-![6](/igtiflix_screens/6.png)
+efeito sobre o alterar do genero<br>
+![1](/igtiflix_screens/1.png)<br>
+efeito sobre o excluir do genero<br>
+![2](/igtiflix_screens/2.png)<br>
+Pagina para edição do Genero<br>
+![3](/igtiflix_screens/3.png)<br>
+efeito sobre o botao para confirmar a edicao do genero<br>
+![4](/igtiflix_screens/4.png)<br>
+efeito sobre o alterar do genero<br>
+![5](/igtiflix_screens/5.png)<br>
+efeito sobre o alterar da Serie<br>
+![6](/igtiflix_screens/6.png)<br>
+efeito sobre o excluir da serie<br>
